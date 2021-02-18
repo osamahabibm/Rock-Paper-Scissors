@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <script src="https://kit.fontawesome.com/90d7c25692.js" crossorigin="anonymous"></script>
+        <link rel='stylesheet' href='paper.css'>
+    </head>
+    <body>
+        <header>
+           <h1> Rock Paper Scissors </h1>
+        </header>
+        <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>Paper covers rock. You win!</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="r">
+                <i class="fas fa-hand-rock"></i>
+            </div>
+            <div class="choice" id="p">
+                <i class="fas fa-hand-paper"></i>
+            </div>
+            <div class="choice" id="s">
+                <i class="fas fa-hand-scissors"></i>
+            </div>
+        </div>
+
+        <p id="action-message">Make Your Move</p>
+        <script src="Scissors.js" charset="utf-8"></script>
+    </body>
+</html>
